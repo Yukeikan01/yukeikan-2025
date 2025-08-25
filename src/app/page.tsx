@@ -1,95 +1,54 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className="wrap">
+      <section className="card" aria-labelledby="titre-maintenance">
+        <h1 id="titre-maintenance">Site internet du YUKEIKAN en maintenance&nbsp;!</h1>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+        <p> Au <strong>YUKEIKAN à Bourg-en-Bresse</strong> nous pratiquons <strong>l'escrime japonaise</strong>, plus
+          précisément : le <strong>kendo</strong>, le <strong>iaido</strong> et le <strong>jodo</strong>.
+        </p>
+
+        <p>Notre <strong>site internet est innaccessible pour le moment...</strong> mais vous pouvez nous joindre
+          par e-mail pour plus d'informations concernant notre dojo ou les disciplines pratiquées
+          : <strong>masamiyukeikan01@gmail.com</strong>
+        </p>
+
+        <p>Si vous n'avez jamais fait de kendo, jodo ou iaido, vous pouvez venir en <strong>tenue de sport
+          confortable</strong> pour un permier cours de découverte. Nous proposons <strong>3 cours d’essai
+          gratuits</strong> pour tester les trois disciplines, qui ont toutes pour point commun l'escrime
+          japonaise, mais chacune a ses particularités.
+
+        </p>
+
+        <p>Dans tous les cas, n'hésitez pas à <strong>venir nous rencontrer lors des créneaux de cours</strong>.
+        </p>
+
+        <p>
+          Nos entraînements ont lieu au <strong>Gymnase Croix Blanche</strong>
+          (<em>Salle de Danse&nbsp;— 1<sup>er</sup> étage</em>).
+        </p>
+
+        <h2>Horaires</h2>
+
+        <div className="schedule" role="list">
+          <div className="slot" role="listitem">
+            <h3>Iaido</h3>
+            <p className="times">Vendredi&nbsp;: 18&nbsp;h à 20&nbsp;h</p>
+          </div>
+
+          <div className="slot" role="listitem">
+            <h3>Kendo</h3>
+            <p className="times">Mercredi&nbsp;: 19&nbsp;h&nbsp;30 à 21&nbsp;h&nbsp;30</p>
+            <p className="times">Vendredi&nbsp;: 20&nbsp;h à 22&nbsp;h</p>
+          </div>
+
+          <div className="slot" role="listitem">
+            <h3>Jodo</h3>
+            <p className="times">Mercredi&nbsp;: 18&nbsp;h à 19&nbsp;h&nbsp;30</p>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+      </section>
+    </main>
   );
 }

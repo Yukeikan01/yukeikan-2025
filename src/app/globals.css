@@ -1,42 +1,73 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --bg: #f8fafc;
+    --fg: #0f172a;
+    --accent: #2563eb;
+    --card: #ffffff;
+    --muted: #475569;
+    --border: #e2e8f0;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+    height: 100%;
 }
-
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Police Arial */
+    font-size: 20px; /* Corps 20 */
+    line-height: 1.5;
+    color: var(--fg);
+    background: radial-gradient(1200px 800px at 20% -10%, #eef2ff 0, transparent 60%),
+    radial-gradient(800px 600px at 120% 10%, #e0f2fe 0, transparent 50%),
+    var(--bg);
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.wrap {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 1rem;
 }
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+    padding: 2rem 2rem 2.5rem;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2rem; /* ≈ 32px tout en restant lisible avec base 20 */
+    line-height: 1.2;
+    color: var(--accent);
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h2 {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.3rem; /* ≈ 26px */
+}
+p { margin: 0.5rem 0; }
+.note {
+    color: var(--muted);
+    font-size: 0.95em;
+}
+.schedule {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-top: 1rem;
+}
+.slot {
+    border: 1px dashed var(--border);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    background: #fcfdff;
+}
+.slot h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.15rem;
+}
+.times { margin: 0.25rem 0 0; }
+address {
+    font-style: normal;
+}
+footer {
+    margin-top: 2rem;
+    font-size: 0.9em;
+    color: var(--muted);
 }
