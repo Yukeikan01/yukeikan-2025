@@ -28,7 +28,7 @@ export default function Home() {
           (<em>Salle de Danse&nbsp;— 1<sup>er</sup> étage</em>).
         </p>
 
-        <h2>Horaires</h2>
+        <h2>Horaires pour la saison 2025-2026</h2>
 
         <div className="schedule" role="list">
           <div className="slot" role="listitem">
