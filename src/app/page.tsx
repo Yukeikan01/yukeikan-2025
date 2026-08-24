@@ -28,23 +28,23 @@ export default function Home() {
           (<em>Salle de Danse&nbsp;— 1<sup>er</sup> étage</em>).
         </p>
 
-        <h2>Horaires pour la saison 2025-2026</h2>
+        <h2>Horaires pour la saison 2026-2027</h2>
 
         <div className="schedule" role="list">
           <div className="slot" role="listitem">
             <h3>Iaido</h3>
-            <p className="times">Vendredi&nbsp;: 18&nbsp;h à 20&nbsp;h</p>
+            <p className="times">Vendredi&nbsp;: 18&nbsp;h&nbsp;30 à 20&nbsp;h</p>
           </div>
 
           <div className="slot" role="listitem">
             <h3>Kendo</h3>
-            <p className="times">Mercredi&nbsp;: 19&nbsp;h&nbsp;30 à 21&nbsp;h&nbsp;30</p>
+            <p className="times">Mercredi&nbsp;: 20&nbsp;h à 22&nbsp;h</p>
             <p className="times">Vendredi&nbsp;: 20&nbsp;h à 22&nbsp;h</p>
           </div>
 
           <div className="slot" role="listitem">
             <h3>Jodo</h3>
-            <p className="times">Mercredi&nbsp;: 18&nbsp;h à 19&nbsp;h&nbsp;30</p>
+            <p className="times">Mercredi&nbsp;: 18&nbsp;h&nbsp;30 à 20&nbsp;h</p>
           </div>
         </div>
 
