@@ -59,14 +59,15 @@ export default function Home() {
             <div className="slot" role="listitem">
             <h3>Jodo</h3>
             <p className="times">Christian FORAY : Shodan FEJ - chef de groupe FEJ (Shinto Muso Ryu Jodo)</p>
-            <p className="times">Flavien SCHWORER : Shodan FEJ - 1<sup>er</sup> dan ZNKR jodo - diplômé CAF (nouveau CFEB),</p>
+            <p className="times">Flavien SCHWORER : Shodan FEJ - 1<sup>er</sup> dan ZNKR jodo - diplômé CAF (nouveau CFEB),</p> 
+            </div>
                
           <div className="slot" role="listitem">
             <h3>Iaido</h3>
             <p className="times">Stephen BELLACHES : 4<sup>ème</sup>  dan - diplômé CFEB </p>
           </div>
                
-          </div>
+         
         </div>
 
       </section>
