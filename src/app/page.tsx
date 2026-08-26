@@ -84,8 +84,9 @@ export default function Home() {
       <p> <a href="https://moncompte.ffjudo.com/prise-licence">FFJDA</a> </p>
       
       <p>Pour valider votre inscription définitive, prévoir un <strong>certificat médical</strong> pour la pratique du kendo, jodo, iaido (on conseille de faire renseigner les 3 disciplines même si une seule vous intéresse au début !) 
-      <br>Le certificat médical est facultatif pour les jeunes de moins de 18ans, il vous sera demandé de remplir un simple questionnaire de santé. </section>
+      <br>Le certificat médical est facultatif pour les jeunes de moins de 18ans, il vous sera demandé de remplir un simple questionnaire de santé.
       <p> <a href="https://www.ffjudo.com/uploads/elfinder/ACTUALITES/2023/ACTU%20TERRITOIRES/QUESTIONNAIRE%20ETAT%20DE%20SANTE%20DU%20SPORTIF%20MINEUR.pdf">QUESTIONNAIRE SANTE MINEUR</a> </p>
+       </section>
       </main>
   );
 }
