@@ -40,12 +40,13 @@ export default function Home() {
             <h3>Jodo</h3> <em>Reprise des cours mercredi 2/09/2026</em>
             <p className="times">Mercredi : 17h30 à 18h30 (Shinto Muso Ryu + Kenjutsu : pratiquants avancés uniquement) </p>
             <p className="times">Mercredi : 18h30 à 22h00 (tous niveaux) </p>
-               
+          </div>    
+          
           <div className="slot" role="listitem">
             <h3>Iaido</h3> <em>Reprise des cours vendredi 11/09/2026</em>
             <p className="times">Vendredi : 18h30 à 20h00 (tous niveaux) </p>
           </div>
-
+  </div>
         <h2>Enseignants</h2>
 
         <div className="schedule" role="list">
