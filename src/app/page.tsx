@@ -71,7 +71,7 @@ export default function Home() {
 
         <h2>Tarifs cotisation annuelle et licences fédérales</h2>
  <p> <strong>Cotisation à l'association Yukeikan : 130€ adulte, 100€ jeunes.</strong> 
-       <br> Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </br>br> </p>
+       <br> Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </br> </p>
    
 <p> <strong>Licences FFJDA : 56€ par discipline pratiquée (kendo / iaido / jodo) </strong>
   <br>56€ pour 1 discipline, 112€ pour 2 disciplines, 168€ pour 3 disciplines. La licence est obligatoire et le montant est directement reversé à la FFJDA. Elle comprend une assurance fédérale. </br> </p>
