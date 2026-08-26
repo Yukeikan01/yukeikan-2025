@@ -71,20 +71,20 @@ export default function Home() {
 
         <h2>Tarifs cotisation annuelle et licences fédérales</h2>
  <p> <strong>Cotisation à l'association Yukeikan : 130€ adulte, 100€ jeunes.</strong> 
-       <br> Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </p>
+       <br> Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </br>br> </p>
    
 <p> <strong>Licences FFJDA : 56€ par discipline pratiquée (kendo / iaido / jodo) </strong>
-  <br>56€ pour 1 discipline, 112€ pour 2 disciplines, 168€ pour 3 disciplines. La licence est obligatoire et le montant est directement reversé à la FFJDA. Elle comprend une assurance fédérale.</p>
+  <br>56€ pour 1 discipline, 112€ pour 2 disciplines, 168€ pour 3 disciplines. La licence est obligatoire et le montant est directement reversé à la FFJDA. Elle comprend une assurance fédérale. </br> </p>
   <p> <strong>Exemples pratiques :  </strong>
-    <br>Un adulte qui ne pratique que le kendo 1 ou 2 fois par semaine : 130€+56€ = 186€
-    <br>Un jeune qui pratique à la fois kendo, jodo et iaido : 100+56€+56€+56€ = 268€</p>
+    <br>Un adulte qui ne pratique que le kendo 1 ou 2 fois par semaine : 130€+56€ = 186€  </br>
+    <br>Un jeune qui pratique à la fois kendo, jodo et iaido : 100+56€+56€+56€ = 268€  </br> </p>
     
       <h2>Liens d'inscription et de saisie de licence FFJDA</h2>
       <p> <a href="https://www.helloasso.com/associations/yukeikan/adhesions/cotisation-et-licences-2026-2027">HELLOASSO</a> </p>
       <p> <a href="https://moncompte.ffjudo.com/prise-licence">FFJDA</a> </p>
       
       <p>Pour valider votre inscription définitive, prévoir un <strong>certificat médical</strong> pour la pratique du kendo, jodo, iaido (on conseille de faire renseigner les 3 disciplines même si une seule vous intéresse au début !) 
-      <br>Le certificat médical est facultatif pour les jeunes de moins de 18ans, il vous sera demandé de remplir un simple questionnaire de santé.
+      <br>Le certificat médical est facultatif pour les jeunes de moins de 18ans, il vous sera demandé de remplir un simple questionnaire de santé.  </br>
       <p> <a href="https://www.ffjudo.com/uploads/elfinder/ACTUALITES/2023/ACTU%20TERRITOIRES/QUESTIONNAIRE%20ETAT%20DE%20SANTE%20DU%20SPORTIF%20MINEUR.pdf">QUESTIONNAIRE SANTE MINEUR</a> </p>
        </section>
       </main>
