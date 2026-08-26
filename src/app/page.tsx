@@ -8,13 +8,13 @@ export default function Home() {
           précisément : le <strong>kendo</strong>, le <strong>jodo</strong> et le <strong>iaido</strong>.
         </p>
 
-        <p>Notre <strong>site internet est innaccessible pour le moment...</strong> mais vous pouvez nous joindre
+        <p>Notre <strong>site internet est inaccessible pour le moment...</strong> mais vous pouvez nous joindre
           par e-mail pour plus d'informations concernant notre dojo ou les disciplines pratiquées
           : <strong>masamiyukeikan01@gmail.com</strong> ou par téléphone au <strong>zéro-six 46 88 05 23</strong>. Laissez un message vocal ou un sms si on ne décroche pas du premier coup.
         </p>
 
         <p>Si vous n'avez jamais fait de kendo, jodo ou iaido, vous pouvez venir en <strong>tenue de sport
-          confortable</strong> pour un permier cours de découverte. Nous proposons <strong>3 cours d'essai
+          confortable</strong> pour un premier cours de découverte. Nous proposons <strong>3 cours d'essai
           gratuits</strong> pour essayer les trois disciplines, qui ont toutes pour point commun l'escrime
           japonaise, mais chacune a ses particularités.
         </p>
@@ -84,7 +84,7 @@ export default function Home() {
       <p> <a href="https://moncompte.ffjudo.com/prise-licence">FFJDA</a> </p>
       
       <p>Pour valider votre inscription définitive, prévoir un <strong>certificat médical</strong> pour la pratique du kendo, jodo, iaido (on conseille de faire renseigner les 3 disciplines même si une seule vous intéresse au début !) 
-     Le certificat médical est facultatif pour les jeunes de moins de 18ans, il vous sera demandé de remplir un simple questionnaire de santé.
+     Le certificat médical est facultatif pour les jeunes de moins de 18 ans, il vous sera demandé de remplir un simple questionnaire de santé.</p>
       <p> <a href="https://www.ffjudo.com/uploads/elfinder/ACTUALITES/2023/ACTU%20TERRITOIRES/QUESTIONNAIRE%20ETAT%20DE%20SANTE%20DU%20SPORTIF%20MINEUR.pdf">QUESTIONNAIRE SANTE MINEUR</a> </p>
        </section>
       </main>
