@@ -19,12 +19,11 @@ export default function Home() {
           japonaise, mais chacune a ses particularités.
         </p>
 
-        <p>Dans tous les cas, vous pouvez <strong>venir nous rencontrer lors des créneaux de cours</strong>. Il est possible de débuter en cours d'année.
+        <p>Dans tous les cas, vous pouvez <strong>venir nous rencontrer lors des créneaux de cours</strong>. Il est possible de débuter l'apprentissage de nos disciplines en cours de saison.
         </p>
 
         <p>
-          Nos entraînements ont lieu au <strong>Gymnase Croix Blanche</strong>
-          (<em>Salle de Danse — 1<sup>er</sup> étage</em>), Place Camille Claudel, accès via Rue des Dîmes.
+          Nos entraînements ont lieu au <strong>Gymnase Croix Blanche</strong> (<em>Salle de Danse au 1<sup>er</sup> étage</em>), Place Camille Claudel, accès via Rue des Dîmes à Bourg-en-Bresse.
         </p>
 
         <h2>Horaires pour la saison 2026-2027</h2>
@@ -38,8 +37,8 @@ export default function Home() {
           
              <div className="slot" role="listitem">
             <h3>Jodo</h3> <em>Reprise des cours mercredi 2/09/2026</em>
-            <p className="times">Mercredi : 17h30 à 18h30 (Shinto Muso Ryu : pratiquants avancés) </p>
-            <p className="times">Mercredi : 18h30 à 22h00 (tous niveaux) </p>
+            <p className="times">Mercredi : 17h30 à 18h30 (Shinto Muso Ryu + Kenjutsu : pratiquants avancés) </p>
+            <p className="times">Mercredi : 18h30 à 20h00 (tous niveaux) </p>
           </div>    
           
           <div className="slot" role="listitem">
@@ -59,8 +58,8 @@ export default function Home() {
           
             <div className="slot" role="listitem">
             <h3>Jodo</h3>
-            <p className="times">Christian FORAY : Shodan FEJ - chef de groupe FEJ (Shinto Muso Ryu Jodo)</p>
-            <p className="times">Flavien SCHWORER : Shodan FEJ - 1<sup>er</sup> dan jodo ZNKR - diplômé CAF</p> 
+            <p className="times">Christian FORAY : Shodan FEJ - chef de groupe FEJ (Shinto Muso Ryu)</p>
+            <p className="times">Flavien SCHWORER : Shodan FEJ - 1<sup>er</sup> dan ZNKR - diplômé CAF</p> 
             </div>
                
           <div className="slot" role="listitem">
@@ -70,14 +69,13 @@ export default function Home() {
         </div>
 
         <h2>Tarifs cotisation annuelle et licences fédérales</h2>
- <p> <strong>Cotisation à l'association Yukeikan : 130€ adulte, 100€ jeunes.</strong> 
-       Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </p>
+ <p> <strong>Cotisation à l'association Yukeikan : 130€ adulte, 100€ jeunes.</strong> Cette cotisation vous donne accès à tous les cours de kendo, iaido et jodo. Nous proposons des tarifs dégressifs famille, paiements en 3x possible, nous contacter. </p>
    
 <p> <strong>Licences FFJDA : 56€ par discipline pratiquée (kendo / iaido / jodo) </strong></p>
  <p> 56€ pour 1 discipline, 112€ pour 2 disciplines, 168€ pour 3 disciplines. La licence est obligatoire et le montant est directement reversé à la FFJDA. Elle comprend une assurance fédérale. </p>
   <p> <strong>Exemples pratiques :  </strong></p>
   <p>  Un adulte qui ne pratique que le kendo 1 ou 2 fois par semaine : 130€+56€ = 186€</p>
-   <p> Un jeune qui pratique à la fois kendo, jodo et iaido : 100+56€+56€+56€ = 268€ </p>
+   <p> Un jeune qui pratique à la fois kendo, jodo et iaido : 100€+56€+56€+56€ = 268€ </p>
     
       <h2>Liens d'inscription et de saisie de licence FFJDA</h2>
       <p> <a href="https://www.helloasso.com/associations/yukeikan/adhesions/cotisation-et-licences-2026-2027">HELLOASSO</a> </p>
